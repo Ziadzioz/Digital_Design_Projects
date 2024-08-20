@@ -16,17 +16,29 @@ This repository is aimed at students, engineers, and hobbyists who are intereste
 
 Here is a list of My projects in this repository:
 ALU_Hieraical
+
 ASYNC_FIFO
+
 CLOCK_DIVDER
+
 Counter
+
 CRC
+
 DATA_SYNC
+
 REG & Garage
+
 REG_FILE
+
 RESET_SYNC
+
 source.txt
+
 UART_RX
+
 UART_TX
+
 
 ## Installation
 
