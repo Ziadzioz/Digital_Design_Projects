@@ -1,0 +1,19 @@
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module DATA_SYNC
+# -- Compiling module DATA_SYNC_TB
+# 
+# Top level modules:
+# 	DATA_SYNC_TB
+# vsim -voptargs=+accs work.DATA_SYNC_TB 
+# Loading work.DATA_SYNC_TB
+# Loading work.DATA_SYNC
+# TEST CASE 1 
+# Test_Case  is succeeded with SYNC_BUS_DATA =   8 AND equal UNSYNC_BUS_DATA =   8 and enable_pulse = 1  at Time                   75
+# TEST CASE 2 
+# Test_Case  is succeeded with SYNC_BUS_DATA =   7 AND equal UNSYNC_BUS_DATA =   7 and enable_pulse = 1  at Time                  125
+# Break in Module DATA_SYNC_TB at DATA_SYNC_TB.v line 33
+# Simulation Breakpoint: Break in Module DATA_SYNC_TB at DATA_SYNC_TB.v line 33
+# MACRO ./run.txt PAUSED at line 8

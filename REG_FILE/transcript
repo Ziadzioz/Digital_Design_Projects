@@ -1,0 +1,57 @@
+# Compile of Reg_file.v was successful.
+# Compile of Reg_file-TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of Reg_file-TB.v failed with 1 errors.
+# Compile of Reg_file.v was successful.
+# Compile of Reg_file-TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.Reg_file_TB
+# vsim -gui work.Reg_file_TB 
+# Loading work.Reg_file_TB
+# Loading work.Reg_file
+# ** Error: (vsim-3053) E:/Digital Projects/REG_FILE/Reg_file-TB.v(100): Illegal output or inout port connection for "port 'R_DATA_VALID'".
+# 
+#         Region: /Reg_file_TB/DUT
+# Error loading design
+# Compile of Reg_file-TB.v was successful.
+vsim -gui work.Reg_file_TB
+# vsim -gui work.Reg_file_TB 
+# Loading work.Reg_file_TB
+# Loading work.Reg_file
+add wave -position insertpoint sim:/Reg_file_TB/*
+run -all
+# Test Rest Function
+# Test Case 1 is falled with value stored inside Reg[0] is =x at Time                  18
+# Test wirte Function
+# Test Case 2 is falled with value stored inside Reg[0] is =x at Time                  28
+# Test read Function
+# Test Case 3 is passed with value stored inside Reg[0] is =15 at Time                  38
+# Test wirte Function
+# Test Case 4 is passed with value stored inside Reg[0] is =15 at Time                  48
+# Test read Function
+# Test Case 5 is falled with value stored inside Reg[1] is =255 at Time                  58
+# DONE
+# Break in Module Reg_file_TB at E:/Digital Projects/REG_FILE/Reg_file-TB.v line 80
+# Compile of Reg_file.v was successful.
+# Compile of Reg_file-TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of Reg_file.v was successful.
+# Compile of Reg_file-TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "Reg_file.vcd"
+# Loading work.Reg_file_TB
+# Loading work.Reg_file
+run -all
+# Test Rest Function
+# Test Case 1 is falled with value stored inside Reg[0] is =129 at Time                  18
+# Test wirte Function
+# Test Case 2 is falled with value stored inside Reg[0] is =129 at Time                  28
+# Test read Function
+# Test Case 3 is passed with value stored inside Reg[0] is =15 at Time                  38
+# Test wirte Function
+# Test Case 4 is passed with value stored inside Reg[0] is =15 at Time                  48
+# Test read Function
+# Test Case 5 is falled with value stored inside Reg[1] is =255 at Time                  58
+# DONE
+# Break in Module Reg_file_TB at E:/Digital Projects/REG_FILE/Reg_file-TB.v line 80

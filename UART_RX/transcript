@@ -1,0 +1,72 @@
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v' doesn't exist.
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v' doesn't exist.
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v' doesn't exist.
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v' doesn't exist.
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/UART_RX/Bit_counter.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Data_Sampling.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Data_Sampling.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Parity_Check.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Parity_Check.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Stop_Check.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\Stop_Check.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\UART_RX_TOP.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\UART_RX_TOP.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\UART_RX_TB.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\UART_RX\UART_RX_TB.v' doesn't exist.
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module Bit_counter
+# -- Compiling module Data_Sampling
+# -- Compiling module Deserializer
+# -- Compiling module FSM
+# -- Compiling module Parity_Check
+# -- Compiling module Start_Check
+# -- Compiling module Stop_Check
+# -- Compiling module UART_RX_TB
+# -- Compiling module UART_RX_TOP
+# 
+# Top level modules:
+# 	UART_RX_TB
+# vsim -voptargs=+accs work.UART_RX_TB 
+# Loading work.UART_RX_TB
+# Loading work.UART_RX_TOP
+# Loading work.FSM
+# Loading work.Bit_counter
+# Loading work.Data_Sampling
+# Loading work.Start_Check
+# Loading work.Stop_Check
+# Loading work.Deserializer
+# Loading work.Parity_Check
+# Test Case 1 Testing odd parity with prescale 8
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   110
+# Test Case 2 Testing odd parity with prescale 16
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   217
+# Test Case 3 Testing odd parity with prescale 4
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   329
+# Test Case 4 Testing odd parity with prescale 32
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   436
+# Test Case 5 Testing even parity with prescale 8
+# Test_Case Passed with OUTPUT_DATA is =  31   && parrity_error = 0  && Stop_error = 0   at time                   544
+# Test Case 6 Testing Data without parity and prescale 8
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   644
+# Test Case 7 Testing  receiving  2 consecutive frames with and without parity  and prescale 8
+# Test_Case Passed with OUTPUT_DATA is =  14   && parrity_error = 0  && Stop_error = 0   at time                   754
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                   853
+# Test Case 8 Testing  Stop_error 
+# Test_Case Falled with OUTPUT_DATA is =  0   because parrity_error = 0  && Stop_error = 1   at time                   963
+# Test Case 9 Testing  parity_error 
+# Test_Case Falled with OUTPUT_DATA is =  0   because parrity_error = 1  && Stop_error = 0   at time                  1073
+# Test Case 10 Testing  receiving  2 consecutive frames with and without parity  and prescale 8 // 16
+# Test_Case Passed with OUTPUT_DATA is =  31   && parrity_error = 0  && Stop_error = 0   at time                  1181
+# Test_Case Passed with OUTPUT_DATA is =  7   && parrity_error = 0  && Stop_error = 0   at time                  1278
+# THE PROJECT IS DONEEEEE
+# Break in Module UART_RX_TB at UART_RX_TB.v line 78
+# Simulation Breakpoint: Break in Module UART_RX_TB at UART_RX_TB.v line 78
+# MACRO ./run.txt PAUSED at line 14

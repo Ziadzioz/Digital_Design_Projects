@@ -1,0 +1,404 @@
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FSM_TX
+# -- Compiling module MUX
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module UART_TOP_TB
+# -- Compiling module UART_TX_TOP
+# 
+# Top level modules:
+# 	UART_TOP_TB
+# 	UART_TX_TOP
+# vsim -voptargs=+accs work.UART_TOP_TB 
+# Loading work.UART_TOP_TB
+# Loading work.UART_TOP
+# Loading work.serializer
+# Loading work.FSM
+# Loading work.parity_calc
+# Loading work.MUX
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  104
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT = 1582 AND equal Expec_Data = 1582 at Time                  234
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 1894 AND equal Expec_Data = 1894 at Time                  365
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT =  980 AND equal Expec_Data =  980 at Time                  486
+# ** Note: $finish    : UART_TB.v(53)
+#    Time: 590304 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# Simulation Breakpoint: 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# MACRO ./run.txt PAUSED at line 6
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FSM_TX
+# -- Compiling module MUX
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module UART_TOP_TB
+# -- Compiling module UART_TX_TOP
+# 
+# Top level modules:
+# 	UART_TOP_TB
+# 	UART_TX_TOP
+# vsim -voptargs=+accs work.UART_TOP_TB 
+# Loading work.UART_TOP_TB
+# Loading work.UART_TOP
+# Loading work.serializer
+# Loading work.FSM
+# Loading work.parity_calc
+# Loading work.MUX
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is failed with OUTPUT =  23 AND  Expec_Data = 255 at Time                  226
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 179 AND  Expec_Data = 255 at Time                  339
+# Test Case 4  test no parity
+# Test Case  is failed with OUTPUT = 234 AND  Expec_Data = 255 at Time                  451
+# ** Note: $finish    : UART_TB.v(53)
+#    Time: 555580 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# Simulation Breakpoint: 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# MACRO ./run.txt PAUSED at line 6
+# Compile of UART_TB.v was successful.
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FSM_TX
+# -- Compiling module MUX
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module UART_TOP_TB
+# -- Compiling module UART_TX_TOP
+# 
+# Top level modules:
+# 	UART_TOP_TB
+# 	UART_TX_TOP
+# vsim -voptargs=+accs work.UART_TOP_TB 
+# Loading work.UART_TOP_TB
+# Loading work.UART_TOP
+# Loading work.serializer
+# Loading work.FSM
+# Loading work.parity_calc
+# Loading work.MUX
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is failed with OUTPUT =  23 AND  Expec_Data = 255 at Time                  226
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 179 AND  Expec_Data = 255 at Time                  339
+# Test Case 4  test no parity
+# Test Case  is failed with OUTPUT = 234 AND  Expec_Data = 255 at Time                  451
+# ** Note: $finish    : UART_TB.v(53)
+#    Time: 555580 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# Simulation Breakpoint: 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# MACRO ./run.txt PAUSED at line 6
+# WARNING: No extended dataflow license exists
+# Error opening E:/Digital Projects/UART_TX/UART_TOP.v
+# Path name 'E:/Digital Projects/UART_TX/UART_TOP.v' doesn't exist.
+# Compile of serializer.v failed with 4 errors.
+# Compile of serializer.v was successful.
+add wave -position insertpoint sim:/UART_TOP_TB/DUT/serial/*
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FSM_TX
+# -- Compiling module MUX
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module UART_TOP_TB
+# -- Compiling module UART_TX_TOP
+# 
+# Top level modules:
+# 	UART_TOP_TB
+# 	UART_TX_TOP
+# vsim -voptargs=+accs work.UART_TOP_TB 
+# Loading work.UART_TOP_TB
+# Loading work.UART_TOP
+# Loading work.serializer
+# Loading work.FSM
+# Loading work.parity_calc
+# Loading work.MUX
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is failed with OUTPUT =  23 AND  Expec_Data = 255 at Time                  226
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 179 AND  Expec_Data = 255 at Time                  339
+# Test Case 4  test no parity
+# Test Case  is failed with OUTPUT = 234 AND  Expec_Data = 255 at Time                  451
+# ** Note: $finish    : UART_TB.v(53)
+#    Time: 555580 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# Simulation Breakpoint: 1
+# Break in Module UART_TOP_TB at UART_TB.v line 53
+# MACRO ./run.txt PAUSED at line 6
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FSM_TX
+# -- Compiling module MUX
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module UART_TOP_TB
+# -- Compiling module UART_TX_TOP
+# 
+# Top level modules:
+# 	UART_TOP_TB
+# 	UART_TX_TOP
+# vsim -voptargs=+accs work.UART_TOP_TB 
+# Loading work.UART_TOP_TB
+# Loading work.UART_TOP
+# Loading work.serializer
+# Loading work.FSM
+# Loading work.parity_calc
+# Loading work.MUX
+# Test Case 1 test DATA_VALID signal
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  226
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 255 AND  Expec_Data = 255 at Time                  321
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : UART_TB.v(86)
+#    Time: 503494 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at UART_TB.v line 86
+# Simulation Breakpoint: 1
+# Break in Module UART_TOP_TB at UART_TB.v line 86
+# MACRO ./run.txt PAUSED at line 6
+add wave -position insertpoint sim:/UART_TOP_TB/DUT/serial/*
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 255 AND  Expec_Data = 255 at Time                  304
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  399
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(86)
+#    Time: 486132 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 86
+add wave -position insertpoint sim:/UART_TOP_TB/DUT/parity/*
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is failed with OUTPUT = 255 AND  Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful with warnings.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful with warnings.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+add wave -position insertpoint sim:/UART_TOP_TB/*
+restart
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data = 255 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 255 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 255 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95
+# Compile of MUX.v was successful.
+# Compile of parity_bit.v was successful.
+# Compile of serializer.v was successful.
+# Compile of UART_TB.v was successful.
+# Compile of UART_TX_TOP.v was successful.
+# Compile of FSM_TX.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "UART_TX.vcd"
+# Loading work.UART_TOP_TB
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.MUX
+run -all
+# Test Case 1 test DATA_VALID signal
+# Test Case  is succeeded with OUTPUT = 255 AND equal Expec_Data = 255 at Time                  113
+# Test Case 2 test odd parity
+# Test Case  is succeeded with OUTPUT =  23 AND equal Expec_Data =  23 at Time                  208
+# Test Case 3 test odd parity
+# Test Case  is succeeded with OUTPUT = 179 AND equal Expec_Data = 179 at Time                  313
+# Test Case 4  test no parity
+# Test Case  is succeeded with OUTPUT = 234 AND equal Expec_Data = 234 at Time                  417
+# ** Note: $finish    : E:/Digital Projects/UART_TX/UART_TB.v(95)
+#    Time: 503492 ns  Iteration: 0  Instance: /UART_TOP_TB
+# 1
+# Break in Module UART_TOP_TB at E:/Digital Projects/UART_TX/UART_TB.v line 95

@@ -1,0 +1,254 @@
+do run.txt
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module DF_SYNC
+# -- Compiling module FIFO_BUFFER
+# -- Compiling module FIFO_RD
+# -- Compiling module FIFO_TOP
+# -- Compiling module FIFO_TOP_TB
+# -- Compiling module FIFO_WR
+# 
+# Top level modules:
+# 	FIFO_TOP_TB
+# vsim -voptargs=+accs work.FIFO_TOP_TB 
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 4 TESTING W_FULL FLAG after sending 8 DATA Byetes and not reciving any one of them 
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# Test_Case  is Falled with W_FULL = 0   at Time                  145
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Succeeded with  R_DATA =   1   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Falled with R_EMPTY = 0   at Time                  397
+# Break in Module FIFO_TOP_TB at FIFO_TOP_TB.v line 95
+# Simulation Breakpoint: Break in Module FIFO_TOP_TB at FIFO_TOP_TB.v line 95
+# MACRO ./run.txt PAUSED at line 7
+# Paste insertion failed: !W_FULL: (vish-4014) No objects found matching '!W_FULL'.
+# Paste insertion failed: &: (vish-4014) No objects found matching '&'.
+# Paste insertion failed: WINC: (vish-4014) No objects found matching 'WINC'.
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_BUFFER/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_WR/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_RD/*
+vsim -voptargs=+accs work.FIFO_TOP_TB
+# vsim -voptargs=+accs work.FIFO_TOP_TB 
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+add wave -position insertpoint sim:/FIFO_TOP_TB/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_BUFFER/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_WR/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_RD/*
+run -all
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 4 TESTING W_FULL FLAG after sending 8 DATA Byetes and not reciving any one of them 
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# Test_Case  is Falled with W_FULL = 0   at Time                  145
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Succeeded with  R_DATA =   1   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Falled with R_EMPTY = 0   at Time                  397
+# Break in Module FIFO_TOP_TB at FIFO_TOP_TB.v line 95
+# Compile of FIFO_TOP_TB.v was successful.
+restart
+# Closing VCD file "ASYNC_FIFO_READ.vcd"
+# Closing VCD file "dump.vcd"
+# Closing VCD file "ASYNC_FIFO_WRITE.vcd"
+# Loading work.FIFO_TOP_TB
+run -all
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Falled with R_DATA =  17   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Falled with R_EMPTY = 0   at Time                  212
+# Break in Module FIFO_TOP_TB at E:/Digital Projects/ASYNC_FIFO/FIFO_TOP_TB.v line 95
+# Compile of FIFO_BUFFER.v was successful.
+restart
+# Closing VCD file "ASYNC_FIFO_READ.vcd"
+# Closing VCD file "dump.vcd"
+# Closing VCD file "ASYNC_FIFO_WRITE.vcd"
+# Loading work.FIFO_BUFFER
+run -all
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Falled with R_DATA =  17   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Falled with R_EMPTY = 0   at Time                  212
+# Break in Module FIFO_TOP_TB at E:/Digital Projects/ASYNC_FIFO/FIFO_TOP_TB.v line 95
+# Compile of FIFO_BUFFER.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of FIFO_RD.v failed with 1 errors.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_TOP_TB.v was successful.
+# 6 compiles, 1 failed with 1 error. 
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_BUFFER.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_TOP_TB.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "ASYNC_FIFO_READ.vcd"
+# Closing VCD file "dump.vcd"
+# Closing VCD file "ASYNC_FIFO_WRITE.vcd"
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+# ** Warning: (vsim-3017) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'W_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_BUFFER.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'R_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_BUFFER.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3722) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [TFMPC] - Missing connection for port 'W_EN'.
+# 
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(39): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'W_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_WR.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_WR
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(49): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'R_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_RD.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_RD
+# Warning in wave window restart: (vish-4014) No objects found matching '/FIFO_TOP_TB/DUT/FIFO_WR/W_EN'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/FIFO_TOP_TB/DUT/FIFO_RD/empty'. 
+vsim -voptargs=+accs work.FIFO_TOP_TB
+# vsim -voptargs=+accs work.FIFO_TOP_TB 
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+# ** Warning: (vsim-3017) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'W_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_BUFFER.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'R_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_BUFFER.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3722) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(27): [TFMPC] - Missing connection for port 'W_EN'.
+# 
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(39): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'W_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_WR.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_WR
+# ** Warning: (vsim-3015) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(49): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'R_ADDRESS'. The port definition is at: E:/Digital Projects/ASYNC_FIFO/FIFO_RD.v(8).
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_RD
+# Compile of FIFO_TOP.v was successful.
+vsim -voptargs=+accs work.FIFO_TOP_TB
+# vsim -voptargs=+accs work.FIFO_TOP_TB 
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+# ** Warning: (vsim-3017) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(28): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /FIFO_TOP_TB/DUT/FIFO_BUFFER
+# ** Warning: (vsim-3722) E:/Digital Projects/ASYNC_FIFO/FIFO_TOP.v(28): [TFMPC] - Missing connection for port 'W_EN'.
+# 
+# Compile of FIFO_BUFFER.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_TOP_TB.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim -voptargs=+accs work.FIFO_TOP_TB
+# vsim -voptargs=+accs work.FIFO_TOP_TB 
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+add wave -position insertpoint sim:/FIFO_TOP_TB/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_BUFFER/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_WR/*
+add wave -position insertpoint sim:/FIFO_TOP_TB/DUT/FIFO_RD/*
+run -all
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Falled with R_DATA =  17   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                  212
+# Break in Module FIFO_TOP_TB at E:/Digital Projects/ASYNC_FIFO/FIFO_TOP_TB.v line 95
+# Compile of FIFO_BUFFER.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_TOP_TB.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error. 
+# Compile of FIFO_BUFFER.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_TOP_TB.v was successful.
+# 6 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "ASYNC_FIFO_READ.vcd"
+# Closing VCD file "dump.vcd"
+# Closing VCD file "ASYNC_FIFO_WRITE.vcd"
+# Loading work.FIFO_TOP_TB
+# Loading work.FIFO_TOP
+# Loading work.FIFO_BUFFER
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.DF_SYNC
+run -all
+# TEST CASE 1 TESTING W_FULL FLAG  before sending any DATA
+# Test_Case  is Succeeded with W_FULL = 0   at Time                   35
+# TEST CASE 2 TESTING R_EMPTY FLAG before sending any DATA 
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                   87
+# TEST CASE 3 TESTING R_EMPTY FLAG after sending  DATA
+# Test_Case  is Succeeded with R_EMPTY = 0   at Time                  137
+# TEST CASE 5 TESTING R_DATA at index zero in FIFO 
+# Test_Case  is Falled with R_DATA =  17   at Time                  162
+# TEST CASE 6 TESTING R_EMPTY FLAG after reading all  DATA
+# Test_Case  is Succeeded with R_EMPTY = 1   at Time                  212
+# TEST CASE 4 TESTING W_FULL FLAG after sending 8 DATA Byetes and not reciving any one of them 
+# Break in Module FIFO_TOP_TB at E:/Digital Projects/ASYNC_FIFO/FIFO_TOP_TB.v line 96

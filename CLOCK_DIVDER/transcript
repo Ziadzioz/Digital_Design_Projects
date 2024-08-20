@@ -1,0 +1,68 @@
+# Error opening C:/Users/pc1/OneDrive/Documents/Digital Projects/CLOCK_DIVDER/CLK_DIV.v
+# Path name 'C:/Users/pc1/OneDrive/Documents/Digital Projects/CLOCK_DIVDER/CLK_DIV.v' doesn't exist.
+# Error opening C:\Users\pc1\OneDrive\Documents\Digital Projects\CLOCK_DIVDER\CLK_DIV_TB.v
+# Path name 'C:\Users\pc1\OneDrive\Documents\Digital Projects\CLOCK_DIVDER\CLK_DIV_TB.v' doesn't exist.
+# Compile of CLK_DIV.v was successful.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of CLK_DIV_TB.v was successful.
+vsim -gui work.CLK_DIV_TB
+# vsim -gui work.CLK_DIV_TB 
+# Loading work.CLK_DIV_TB
+# Loading work.CLK_DIV
+add wave -position insertpoint sim:/CLK_DIV_TB/*
+add wave -position insertpoint sim:/CLK_DIV_TB/DUT/#ALWAYS#47/*
+run -all
+# Test Case   test  Divde by 2 
+# Test Case   Passed 
+# Break in Module CLK_DIV_TB at E:/Digital Projects/CLOCK_DIVDER/CLK_DIV_TB.v line 40
+# Compile of CLK_DIV.v was successful.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "CLK_DIV.vcd"
+# Loading work.CLK_DIV_TB
+# Loading work.CLK_DIV
+run -all
+# Test Case   test  Divde by 2 
+# Test Case   Passed 
+# Break in Module CLK_DIV_TB at E:/Digital Projects/CLOCK_DIVDER/CLK_DIV_TB.v line 40
+# Compile of CLK_DIV.v was successful.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "CLK_DIV.vcd"
+# Loading work.CLK_DIV_TB
+# Loading work.CLK_DIV
+run -all
+# Test Case   test  Divde by 2 
+# Test Case   Passed 
+# Break in Module CLK_DIV_TB at E:/Digital Projects/CLOCK_DIVDER/CLK_DIV_TB.v line 40
+# Compile of CLK_DIV.v failed with 1 errors.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of CLK_DIV.v failed with 1 errors.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of CLK_DIV.v was successful.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "CLK_DIV.vcd"
+# Loading work.CLK_DIV_TB
+# Loading work.CLK_DIV
+run -all
+# Test Case   test  Divde by 2 
+# Test Case   Passed 
+# Break in Module CLK_DIV_TB at E:/Digital Projects/CLOCK_DIVDER/CLK_DIV_TB.v line 40
+# Compile of CLK_DIV.v was successful.
+# Compile of CLK_DIV_TB.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Closing VCD file "CLK_DIV.vcd"
+# Loading work.CLK_DIV_TB
+# Loading work.CLK_DIV
+run -all
+# Test Case   test  Divde by 2 
+# Test Case   Passed 
+# Break in Module CLK_DIV_TB at E:/Digital Projects/CLOCK_DIVDER/CLK_DIV_TB.v line 40

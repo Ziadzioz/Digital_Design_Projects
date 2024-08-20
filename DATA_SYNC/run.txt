@@ -1,0 +1,8 @@
+vlib work 
+vlog -f source_file.txt
+vsim -voptargs=+accs work.DATA_SYNC_TB
+add wave *
+add wave -position insertpoint sim:/DATA_SYNC_TB/DUT/#ASSIGN#44/*
+add wave -position insertpoint sim:/DATA_SYNC_TB/DUT/#ALWAYS#17/*
+
+run -all
