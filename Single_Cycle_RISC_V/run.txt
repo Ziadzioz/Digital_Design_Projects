@@ -1,0 +1,9 @@
+vlib work 
+vlog -f source_file.txt
+vsim -voptargs=+accs work.SINGLE_RISC_V_TB
+add wave *
+add wave -position insertpoint sim:/SINGLE_RISC_V_TB/DUT/REG_FILE/*
+add wave -position insertpoint sim:/SINGLE_RISC_V_TB/DUT/RAM/*
+add wave -position insertpoint sim:/SINGLE_RISC_V_TB/DUT/CONTROL_UNIT/*
+
+run -all

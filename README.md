@@ -17,6 +17,8 @@ This repository is aimed at students, engineers, and hobbyists who are intereste
 Here is a list of My projects in this repository:
 ALU_Hieraical
 
+Single_Cycle_RISC_V
+
 ASYNC_FIFO
 
 CLOCK_DIVDER
